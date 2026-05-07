@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "name": "Le Minh Triet",
+    "title": "Backend Developer",
+    "description": "Crafting resilient and scalable backend systems to power modern applications.",
+    "availability": "Available for new opportunities"
+  },
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "twitter"
+    }
+  ],
+  "about": {
+    "title": "About me",
+    "description": "I am a passionate software engineer specializing in backend development. I love building robust architectures, optimizing databases, and setting up reliable infrastructure for high-performance applications.",
+    "stats": [
+      { "label": "Years Experience", "value": "5+" },
+      { "label": "Projects Completed", "value": "20+" },
+      { "label": "Happy Clients", "value": "15+" }
+    ],
+    "skills": [
+      {
+        "category": "Front-End",
+        "technologies": ["React", "HTML5", "CSS3", "JavaScript", "TypeScript"]
+      },
+      {
+        "category": "Back-End",
+        "technologies": ["Node.js", "Express", "Python", "Go", "Java", "Spring Boot"]
+      },
+      {
+        "category": "Database",
+        "technologies": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "DynamoDB"]
+      },
+      {
+        "category": "Tools & DevOps",
+        "technologies": ["Docker", "Kubernetes", "AWS", "Git", "CI/CD", "Linux"]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "food-delivery-app",
+      "title": "Food Delivery App",
+      "shortDescription": "A highly scalable microservices architecture for real-time food ordering.",
+      "image": "./assets/food-delivery.webp",
+      "tags": ["Node.js", "Redis", "Microservices", "Docker"],
+      "detail": {
+        "overview": "Built a scalable food delivery application handling thousands of concurrent users. Improved order processing speed by 40% using Redis caching and message queues.",
+        "features": [
+          "Real-time order tracking",
+          "Automated dispatch system",
+          "Surge pricing algorithms",
+          "Inventory management integrations"
+        ],
+        "architecture": "The system utilizes a microservices architecture built with Node.js and Go. Communication between services is handled via RabbitMQ. Data is persisted in PostgreSQL with Redis acting as a caching layer for high-read requests.",
+        "challenges": "Handling peak mealtime traffic spikes without degrading performance. Solved by implementing dynamic auto-scaling and optimizing database queries using materialized views.",
+        "demoUrl": "https://example.com/demo",
+        "githubUrl": "https://github.com/example/food-delivery"
+      }
+    },
+    {
+      "id": "coral-spiral-abstract",
+      "title": "Coral Spiral Abstract",
+      "shortDescription": "An algorithmic visualizer built for large dataset rendering.",
+      "image": "./assets/coral-spiral.webp",
+      "tags": ["Python", "WebGL", "Data Engineering", "FastAPI"],
+      "detail": {
+        "overview": "Developed a high-performance backend to stream and sequence massive geometric datasets for frontend visualization. The system leverages WebGL for rendering and Python for batch processing.",
+        "features": [
+          "Real-time data streaming",
+          "Procedural geometry generation",
+          "Dynamic parameter adjustment via API",
+          "Optimized binary payload delivery"
+        ],
+        "architecture": "A FastAPI server manages WebSockets to broadcast geometric state changes to connected clients. Heavy computations are offloaded to worker nodes running optimized Rust modules.",
+        "challenges": "Reducing the payload size for complex geometries. Solved by implementing a custom binary serialization format, reducing data transfer size by 75%.",
+        "demoUrl": "https://example.com/demo2",
+        "githubUrl": "https://github.com/example/coral-spiral"
+      }
+    }
+  ],
+  "blog": [
+    {
+      "id": "scaling-nodejs",
+      "title": "Scaling Node.js for High Traffic Applications",
+      "date": "Oct 12, 2026",
+      "readTime": "5 min read",
+      "summary": "Exploring clustering, worker threads, and microservices to maximize Node.js throughput."
+    },
+    {
+      "id": "database-indexing",
+      "title": "Advanced Database Indexing Strategies",
+      "date": "Nov 04, 2026",
+      "readTime": "8 min read",
+      "summary": "How to optimize queries and avoid common pitfalls when creating indexes in PostgreSQL."
+    }
+  ],
+  "contact": {
+    "email": "leminhtriet.ltp2021@gmail.com",
+    "location": "Global / Remote"
+  }
+}
